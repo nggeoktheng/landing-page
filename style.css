@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* width: 90vw;
+    height: 90vh;
+    margin: auto; */
+    font-family: "Lato", sans-serif;
+    padding: 1.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1,
+.logo p {
+    font-family: "Happy Monkey", sans-serif;
+    font-style: italic;
+}
+
+#navbar {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+#navbar li a {
+    color: black;
+    text-decoration: none;
+}
+
+#hero-section,
+.categories {
+    margin-top: 3rem;
+}
+
+#hero-section {
+    /* height: 60vh; */
+    background-image: url("/images/machu-picchu-peru.jpg");
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+
+}
+
+#hero-section h2 {
+    /* To make the font-size responsive (delete once done) */
+    font-size: 2rem;
+}
+
+#hero-section button {
+
+}
