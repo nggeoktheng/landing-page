@@ -53,17 +53,18 @@ header {
 
 #hero-section * {
     padding: 0 1rem;
-    font-weight: bolder;
-    font-size: larger;
 }
 
-#hero-section > h2 {
-    margin-bottom: 1rem;
+#hero-section h2,
+#hero-section p {
+    font-weight: bolder;
+    font-size: larger;
 }
 
 #hero-section h2 {
     /* To make the font-size responsive (delete once done) */
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 #hero-section button {
