@@ -17,8 +17,7 @@ header {
     padding: 0 1rem;
 }
 
-h1,
-.logo p {
+.logo * {
     font-family: "Happy Monkey", sans-serif;
     font-style: italic;
 }
