@@ -4,6 +4,8 @@
 
 ## What I learnt
 
+- Use aspect-ratio to preserve the background image size ratio
+
 ## Notes to improve in the future
 
 ## Image Credits

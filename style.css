@@ -5,17 +5,16 @@
 }
 
 body {
-    /* width: 90vw;
-    height: 90vh;
-    margin: auto; */
     font-family: "Lato", sans-serif;
-    padding: 1.5rem;
+    color: rgb(182, 61, 65);
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1.5rem;
+    padding: 0 1rem;
 }
 
 h1,
@@ -31,23 +30,36 @@ h1,
 }
 
 #navbar li a {
-    color: black;
     text-decoration: none;
+    color: rgb(182, 61, 65);
 }
 
 #hero-section,
 .categories {
-    margin-top: 3rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
 }
 
 #hero-section {
-    /* height: 60vh; */
+    aspect-ratio: 3 / 2;
     background-image: url("/images/machu-picchu-peru.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.hero-content {
+#hero-section * {
+    padding: 0 1rem;
+    font-weight: bolder;
+    font-size: larger;
+}
 
+#hero-section > h2 {
+    margin-bottom: 1rem;
 }
 
 #hero-section h2 {
@@ -56,5 +68,11 @@ h1,
 }
 
 #hero-section button {
-
+    padding: 0.3rem 0.7rem;
+    background-color: rgb(182, 61, 65);
+    color: rgb(235, 180, 180);
+    border-color: rgb(182, 61, 65);
+    border-radius: 5px;
+    margin-top: 2rem;
+    cursor: pointer;
 }
