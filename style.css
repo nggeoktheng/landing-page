@@ -90,3 +90,31 @@ header {
     margin-top: 2rem;
     cursor: pointer;
 }
+
+.categories h3 {
+    margin-bottom: 1rem;
+}
+
+#current-popular-destinations {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popular-destination {
+    position: relative;
+}
+
+.popular-destination img {
+    aspect-ratio: 2 / 3;
+    width: 300px;
+}
+
+.popular-destination span {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: rgb(235, 180, 180);
+}
