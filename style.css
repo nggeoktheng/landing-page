@@ -106,7 +106,7 @@ header {
 .popular-destination {
     position: relative;
     flex: 1 1 0;
-    aspect-ratio: 1;
+    aspect-ratio: 2/3;
 }
 
 .popular-destination img {
@@ -121,6 +121,7 @@ header {
     bottom: 10px;
     width: 100%;
     color: rgb(235, 180, 180);
+    padding-left: 0.5rem;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
