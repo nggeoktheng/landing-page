@@ -4,7 +4,7 @@
 
 ## What I learnt
 
-- Apply aspect-ratio to preserve the background image size ratio
+- Apply aspect-ratio to preserve the image size ratio for popular destinations
 - Implement absolute and relative positioning to achieve a blurred background effect while keeping the text unaffected
 
 ## Notes to improve in the future
