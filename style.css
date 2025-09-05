@@ -15,6 +15,11 @@ header {
     align-items: center;
     margin-top: 1.5rem;
     padding: 0 1rem;
+    gap: 2rem;
+}
+
+.logo {
+    white-space: nowrap;
 }
 
 .logo * {
@@ -25,6 +30,7 @@ header {
 #navbar {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -41,8 +47,7 @@ header {
 
 #hero-section {
     position: relative;
-    /* aspect-ratio: 3 / 2; */
-    min-height: 50vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,13 +104,14 @@ header {
 #current-popular-destinations {
     display: flex;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .popular-destination {
     position: relative;
-    flex: 1 1 0;
+    flex: 1 1 40%;
     aspect-ratio: 2/3;
 }
 
@@ -124,38 +130,19 @@ header {
     padding-left: 0.5rem;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    #hero-section {
-        min-height: 40vh;
+/* tablet >= 768px */
+@media (min-width: 768px) {
+    #navbar {
+        flex-wrap: nowrap;
     }
 
-    #hero-section h2 {
-        font-size: clamp(1.5rem, -1.5157rem + 6.2745vw, 2.5rem);
+    #current-popular-destinations {
+        flex: nowrap;
     }
 
-    #hero-section p {
-        font-size: clamp(1rem, -0.5078rem + 3.1373vw, 1.5rem);
-    }
-
-    #hero-btn {
-        font-size: clamp(0.625rem, -0.0026rem + 1.3059vw, 0.833125rem);
+    .popular-destination {
+        flex: 1 1 0;
     }
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
-    #hero-section {
-        min-height: 30vh;
-    }
-
-    #hero-section h2 {
-        font-size: clamp(1rem, -1.0356rem + 6.3241vw, 2rem);
-    }
-
-    #hero-section p {
-        font-size: clamp(0.625rem, 0rem + 2.0833vw, 1rem);
-    }
-
-    #hero-btn {
-        font-size: clamp(0.4375rem, 0.125rem + 1.0417vw, 0.625rem);
-    }
-}
+/* desktop >= 1024px */
