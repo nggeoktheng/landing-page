@@ -89,7 +89,8 @@ h2 {
     font-size: clamp(1rem, -0.5rem + 3.125vw, 1.5rem);
 }
 
-#hero-btn {
+#hero-btn,
+input[type="submit"] {
     padding: 0.3rem 0.7rem;
     background-color: rgb(182, 61, 65);
     color: rgb(235, 180, 180);
@@ -135,6 +136,33 @@ h2 {
     width: 100%;
     color: rgb(235, 180, 180);
     padding-left: 0.5rem;
+}
+
+/* signup form */
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.form-group {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input[type="text"] {
+    border-color: rgb(182, 61, 65);
+    border-style: solid;
+    color: rgb(182, 61, 65);
+    padding: 0.3125rem;
+}
+
+.form-group input[type="text"]:focus {
+    background-color: rgb(235, 180, 180);
 }
 
 /* tablet >= 768px */
