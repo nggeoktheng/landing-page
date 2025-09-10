@@ -16,15 +16,22 @@ header {
     margin-top: 1.5rem;
     padding: 0 1rem;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
-.logo {
+#logo {
     white-space: nowrap;
 }
 
-.logo * {
+#logo * {
     font-family: "Happy Monkey", sans-serif;
     font-style: italic;
+}
+
+#logo a,
+#navbar li a {
+    text-decoration: none;
+    color: rgb(182, 61, 65);
 }
 
 #navbar {
@@ -34,14 +41,8 @@ header {
     gap: 1rem;
 }
 
-#navbar li a {
-    text-decoration: none;
-    color: rgb(182, 61, 65);
-}
-
 #hero-section,
 .categories {
-    margin-top: 2rem;
     padding: 0 1rem;
 }
 
@@ -79,6 +80,11 @@ header {
     margin-bottom: 1rem;
 }
 
+h2 {
+    font-size: clamp(2rem, -1rem + 6.25vw, 3rem);
+    margin-bottom: 1rem;
+}
+
 #hero-section p {
     font-size: clamp(1rem, -0.5rem + 3.125vw, 1.5rem);
 }
@@ -94,6 +100,7 @@ header {
 }
 
 .categories {
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
