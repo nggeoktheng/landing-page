@@ -5,7 +5,8 @@
 ## What I learnt
 
 - Apply aspect-ratio to preserve the image size ratio for popular destinations
-- Implement absolute and relative positioning to achieve a blurred background effect while keeping the text unaffected
+- Implement absolute and relative positioning to achieve a blurred background effect while keeping the text
+- Flex-basis only controls either the width or height of the flex item. When the flex-direction is **row or row-reverse**, flex-basis controls the **width** of the flex item along the main axis. When the flex-direction is **column or column-reverse**, flex-basis controls the **height** of the flex item along the main axis.
 
 ## Notes to improve in the future
 
