@@ -16,6 +16,7 @@
 ## Notes to improve in the future
 
 - Add method="post" for signup form when using JavaScript
+- Use JavaScript approach to prevent duplicate header and footer
 
 ## Image Credits
 
