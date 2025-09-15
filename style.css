@@ -17,6 +17,10 @@ header {
     padding: 0 1rem;
     gap: 2rem;
     margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
 }
 
 #logo {
@@ -98,6 +102,18 @@ h2 {
     border-radius: 0.3rem;
     margin-top: 1rem;
     cursor: pointer;
+    text-align: center;
+}
+
+#hero-btn {
+    display: block;
+    text-decoration: none;
+    box-shadow: 0 2px 0 #0056b3;
+}
+
+#hero-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #003f80;
 }
 
 .categories {
@@ -137,6 +153,14 @@ h2 {
     color: rgb(235, 180, 180);
     padding-left: 0.5rem;
 }
+
+/* to delete */
+/* #empty {
+    height: 500px;
+    background-color: black;
+} */
+
+/* itineraries */
 
 /* signup form */
 #signup-form {

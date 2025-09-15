@@ -4,9 +4,14 @@
 
 ## What I learnt
 
-- Apply aspect-ratio to preserve the image size ratio for popular destinations
-- Implement absolute and relative positioning to achieve a blurred background effect while keeping the text
+- Apply aspect-ratio to preserve the image size ratio for popular destinations.
+- Implement absolute and relative positioning to achieve a blurred background effect while keeping the text.
 - Flex-basis only controls either the width or height of the flex item. When the flex-direction is **row or row-reverse**, flex-basis controls the **width** of the flex item along the main axis. When the flex-direction is **column or column-reverse**, flex-basis controls the **height** of the flex item along the main axis.
+- `<a>` tags should not be wrapped inside `<button>` tags because it can cause accessibility issues, unexpected behaviour or broken layout. Thus, I used an `<a>` tag styled as a button for page navigation:
+
+```html
+<a href="itineraries.html" id="hero-btn">EXPLORE</a>
+```
 
 ## Notes to improve in the future
 
